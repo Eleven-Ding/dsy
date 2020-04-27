@@ -7,7 +7,7 @@
                 v-show="IsTabFixed"
     ><!--在这里监听子组件发出的信息-->
     </tab-contrl>
-    <scroll class="content" ref="scroll"
+    <scroll class="content" ref="scroll" 
             :probe-type="3" @scroll="contentScroll"
             :pull-up-load="true" @pullingUp="LoadMore">
       <home-swiper :banner="banner" @SwiperImageLoad="SwiperImageLoad"></home-swiper>

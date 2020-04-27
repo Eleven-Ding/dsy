@@ -51,10 +51,10 @@
   .item-list {
     position: fixed;
     left: 0;
-    top: 0;
+    top: 44px;
     bottom: 0;
     width: 20%;
-    height: calc(100vh - 49px);
+    height: calc(100vh - 93px);
     display: flex;
     flex-direction: column;
     text-align: center;

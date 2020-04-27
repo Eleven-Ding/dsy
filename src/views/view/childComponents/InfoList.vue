@@ -36,7 +36,8 @@
     right: 0;
     display: flex;
     flex-wrap: wrap;
-    height: calc(100vh - 49px);
+    height: calc(100vh - 93px);
+    margin-top: 44px;
     overflow:scroll;/*这里可以用BSscroll来做*/
   }
 

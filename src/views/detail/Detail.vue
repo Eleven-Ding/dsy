@@ -102,7 +102,7 @@
     },
     updated() {
       this.themeTopYs = []
-      this.themeTopYs.push(0)
+      this.themeTopYs.push(-44)
       this.themeTopYs.push(this.$refs.param.$el.offsetTop - 49)
       this.themeTopYs.push(this.$refs.comment.$el.offsetTop - 49)
       this.themeTopYs.push(this.$refs.goods.$el.offsetTop - 30 - 49)
@@ -214,9 +214,8 @@
 
   .content {
     position: relative;
-    height: calc(100% - 44px);
-    bottom: 49px;
-    margin-top: 44px;
+    height: calc(100% - 93px);
+    margin-bottom: 49px;
   }
 
   .recommends {

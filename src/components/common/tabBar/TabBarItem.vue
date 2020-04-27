@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="TabBar-item" @click="ItemClick">
     <div v-if="IsActive">
       <slot name="item-icon"></slot>
@@ -20,6 +20,7 @@
     methods: {
       ItemClick() {//监听组件的
         this.$router.replace(this.link)
+        console.log(this.link);
       }
     },
     computed: {

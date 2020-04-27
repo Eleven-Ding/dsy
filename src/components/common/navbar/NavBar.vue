@@ -18,14 +18,15 @@
     height: 44px;
     line-height: 44px;
     box-shadow: 0px 1px 1px rgba(100,100,100,0.1);
+    text-align: center;
    /* background-color: ;这个是动态设置背景颜色的*/
+    font-size: 17px;
   }
   .left, .right{
-    text-align: center;
+
     width: 60px;
   }
   .middle{
     flex: 1;
-    text-align: center;
   }
 </style>
